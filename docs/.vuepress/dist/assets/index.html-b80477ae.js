@@ -1,1 +1,0 @@
-import{_ as o,o as t,c,a as e,b as a}from"./app-5d4716ee.js";const r={},n=e("h1",{id:"welcome",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#welcome","aria-hidden":"true"},"#"),a(" Welcome")],-1),s=e("p",null,"Welcome to our UX Vue library.",-1),_=[n,s];function l(d,i){return t(),c("div",null,_)}const m=o(r,[["render",l],["__file","index.html.vue"]]);export{m as default};
