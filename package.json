@@ -1,7 +1,7 @@
 {
   "name": "axio-vue-components",
   "type": "commonjs",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha.1",
   "description": "List of components",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
