@@ -1,7 +1,7 @@
-import InputPassword from './InputPassword.vue'
-import Lorem from './Lorem.vue'
+import InputPassword from './InputPassword/InputPassword.vue'
+import Lorem from './Lorem/Lorem.vue'
 
-export default { 
+export default {
     InputPassword,
     Lorem
 }
