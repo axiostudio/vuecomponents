@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-22a39d25","path":"/about.html","title":"About","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1690627658000,"contributors":[{"name":"Andrea Rufo","email":"a.rufo@axio.studio","commits":1}]},"filePathRelative":"about.md"}');export{t as data};

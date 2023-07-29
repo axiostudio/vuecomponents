@@ -6,13 +6,8 @@ All the components are based on [Bootstrap](https://getbootstrap.com/) style bas
 
 ## List of components
 
-### InputPassword
-
-An input element password with a toggle button for show or hide the password in the field.
-
-### Lorem
-
-Just a "lorem ipsum" block.
+- AxioInputPassword
+- AxioLorem
 
 ## References
 

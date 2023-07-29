@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/axio-vue-components',
     title: 'Axio Studio Vue Components',
     // description: 'Just playing around',
     themeConfig: {
@@ -26,6 +27,5 @@ module.exports = {
             //     ]
             // }
         ],
-        // base: '/axio-vue-components'
     }
 }

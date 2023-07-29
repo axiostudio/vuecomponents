@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bebc0c42","path":"/components/AxioLorem.html","title":"AxioLorem","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"components/AxioLorem.md"}');export{e as data};

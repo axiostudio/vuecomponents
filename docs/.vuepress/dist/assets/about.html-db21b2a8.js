@@ -1,1 +1,0 @@
-import{_ as t,o,c as a,a as e,b as c}from"./app-490465b2.js";const s={},r=e("h1",{id:"about",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#about","aria-hidden":"true"},"#"),c(" About")],-1),n=e("p",null,"We are Axio Studio",-1),_=[r,n];function d(i,u){return o(),a("div",null,_)}const h=t(s,[["render",d],["__file","about.html.vue"]]);export{h as default};
