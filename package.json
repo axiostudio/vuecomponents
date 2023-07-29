@@ -1,6 +1,6 @@
 {
   "name": "axio-vue-components",
-  "type": "module",
+  "type": "commonjs",
   "version": "0.0.1",
   "description": "List of components",
   "main": "dist/library.js",
@@ -12,7 +12,9 @@
   "author": "Andrea Rufo <a.rufo@axio.studio>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "peerDependencies": {
     "vue": "^3.2.21"
@@ -20,6 +22,7 @@
   "devDependencies": {
     "rollup": "^3.26.3",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0"
+    "rollup-plugin-vue": "^6.0.0",
+    "vuepress": "^2.0.0-beta.66"
   }
 }

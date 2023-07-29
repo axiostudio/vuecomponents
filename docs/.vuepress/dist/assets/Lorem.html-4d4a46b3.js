@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-cc23f33c","path":"/components/Lorem.html","title":"Lorem","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"components/Lorem.md"}');export{e as data};
