@@ -1,5 +1,5 @@
 {
-  "name": "@axiostudio/axio-vue-components",
+  "name": "axio-vue-components",
   "type": "module",
   "version": "0.0.1-alpha.2",
   "description": "List of Vue components made by Axio Studio",
