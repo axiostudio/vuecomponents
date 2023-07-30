@@ -72,7 +72,7 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
 }
 
 script$1.render = render$1;
-script$1.__file = "src/InputPassword.vue";
+script$1.__file = "src/InputPassword/InputPassword.vue";
 
 var script = {
     name: 'AxioLorem',
@@ -83,22 +83,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 
 script.render = render;
-script.__file = "src/Lorem.vue";
+script.__file = "src/Lorem/Lorem.vue";
 
-var components = { 
-    InputPassword: script$1,
-    Lorem: script
+var components = {
+    AxioInputPassword: script$1,
+    AxioLorem: script
 };
 
 const plugin = {
-  install (Vue) {
-    for (const prop in components) {
-      if (components.hasOwnProperty(prop)) {
-        const component = components[prop];
-        Vue.component(component.name, component);
-      }
+    install(Vue) {
+        for (const prop in components) {
+            if (components.hasOwnProperty(prop)) {
+                const component = components[prop];
+                Vue.component(component.name, component);
+            }
+        }
     }
-  }
 };
 
 module.exports = plugin;
