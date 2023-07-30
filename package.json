@@ -1,14 +1,14 @@
 {
-  "name": "axio-vue-components",
+  "name": "@axiostudio/vuecomponents",
   "type": "module",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "List of Vue components made by Axio Studio",
   "main": "dist/library.js",
   "module": "dist/library.mjs",
   "files": [
     "dist/*"
   ],
-  "repository": "https://github.com/axiostudio/axio-vue-components",
+  "repository": "https://github.com/axiostudio/vuecomponents",
   "author": "Axio Studio <info@axio.studio>",
   "license": "MIT",
   "scripts": {
@@ -18,11 +18,9 @@
     "vue": "^3.2.21"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
     "rollup": "^3.26.3",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-vue": "^6.0.0"
-  },
-  "dependencies": {
-    "@vue/compiler-sfc": "^3.3.4"
   }
 }
