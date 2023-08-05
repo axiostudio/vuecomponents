@@ -1,4 +1,4 @@
-import { openBlock, createElementBlock, withDirectives, createElementVNode, vModelDynamic, withModifiers, vShow } from 'vue';
+import { openBlock, createElementBlock, withDirectives, createElementVNode, vModelDynamic, withModifiers, renderSlot, createTextVNode, vShow } from 'vue';
 
 var script$1 = {
     name: 'AxioInputPassword',
@@ -34,14 +34,6 @@ var script$1 = {
 
 const _hoisted_1 = { class: "input-group" };
 const _hoisted_2 = ["type", "required"];
-const _hoisted_3 = /*#__PURE__*/createElementVNode("i", { class: "fas fa-fw fa-eye" }, null, -1 /* HOISTED */);
-const _hoisted_4 = [
-  _hoisted_3
-];
-const _hoisted_5 = /*#__PURE__*/createElementVNode("i", { class: "fas fa-fw fa-eye-slash" }, null, -1 /* HOISTED */);
-const _hoisted_6 = [
-  _hoisted_5
-];
 
 function render$1(_ctx, _cache, $props, $setup, $data, $options) {
   return (openBlock(), createElementBlock("div", _hoisted_1, [
@@ -59,10 +51,18 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
       type: "button",
       onClick: _cache[1] || (_cache[1] = withModifiers((...args) => ($options.togglePassword && $options.togglePassword(...args)), ["stop"]))
     }, [
-      withDirectives(createElementVNode("span", null, _hoisted_4, 512 /* NEED_PATCH */), [
+      withDirectives(createElementVNode("span", null, [
+        renderSlot(_ctx.$slots, "show-button", {}, () => [
+          createTextVNode("Show")
+        ])
+      ], 512 /* NEED_PATCH */), [
         [vShow, !$data.showPassword]
       ]),
-      withDirectives(createElementVNode("span", null, _hoisted_6, 512 /* NEED_PATCH */), [
+      withDirectives(createElementVNode("span", null, [
+        renderSlot(_ctx.$slots, "hide-button", {}, () => [
+          createTextVNode("Hide")
+        ])
+      ], 512 /* NEED_PATCH */), [
         [vShow, $data.showPassword]
       ])
     ])

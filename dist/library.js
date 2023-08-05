@@ -36,14 +36,6 @@ var script$1 = {
 
 const _hoisted_1 = { class: "input-group" };
 const _hoisted_2 = ["type", "required"];
-const _hoisted_3 = /*#__PURE__*/vue.createElementVNode("i", { class: "fas fa-fw fa-eye" }, null, -1 /* HOISTED */);
-const _hoisted_4 = [
-  _hoisted_3
-];
-const _hoisted_5 = /*#__PURE__*/vue.createElementVNode("i", { class: "fas fa-fw fa-eye-slash" }, null, -1 /* HOISTED */);
-const _hoisted_6 = [
-  _hoisted_5
-];
 
 function render$1(_ctx, _cache, $props, $setup, $data, $options) {
   return (vue.openBlock(), vue.createElementBlock("div", _hoisted_1, [
@@ -61,10 +53,18 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
       type: "button",
       onClick: _cache[1] || (_cache[1] = vue.withModifiers((...args) => ($options.togglePassword && $options.togglePassword(...args)), ["stop"]))
     }, [
-      vue.withDirectives(vue.createElementVNode("span", null, _hoisted_4, 512 /* NEED_PATCH */), [
+      vue.withDirectives(vue.createElementVNode("span", null, [
+        vue.renderSlot(_ctx.$slots, "show-button", {}, () => [
+          vue.createTextVNode("Show")
+        ])
+      ], 512 /* NEED_PATCH */), [
         [vue.vShow, !$data.showPassword]
       ]),
-      vue.withDirectives(vue.createElementVNode("span", null, _hoisted_6, 512 /* NEED_PATCH */), [
+      vue.withDirectives(vue.createElementVNode("span", null, [
+        vue.renderSlot(_ctx.$slots, "hide-button", {}, () => [
+          vue.createTextVNode("Hide")
+        ])
+      ], 512 /* NEED_PATCH */), [
         [vue.vShow, $data.showPassword]
       ])
     ])
