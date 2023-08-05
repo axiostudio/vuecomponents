@@ -72,7 +72,7 @@ function render$1(_ctx, _cache, $props, $setup, $data, $options) {
 }
 
 script$1.render = render$1;
-script$1.__file = "src/InputPassword/InputPassword.vue";
+script$1.__file = "src/components/InputPassword/InputPassword.vue";
 
 var script = {
     name: 'AxioLorem',
@@ -83,7 +83,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 }
 
 script.render = render;
-script.__file = "src/Lorem/Lorem.vue";
+script.__file = "src/components/Lorem/Lorem.vue";
 
 var components = {
     AxioInputPassword: script$1,

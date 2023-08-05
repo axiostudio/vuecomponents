@@ -8,8 +8,12 @@
         v-model="password"
         >
         <button class="btn btn-secondary" type="button" @click.stop="togglePassword">
-            <span v-show="!showPassword"><i class="fas fa-fw fa-eye"></i></span>
-            <span v-show="showPassword"><i class="fas fa-fw fa-eye-slash"></i></span>
+            <span v-show="!showPassword">
+                <slot name="show-button">Show</slot>
+            </span>
+            <span v-show="showPassword">
+                <slot name="hide-button">Hide</slot>
+            </span>
         </button>
     </div>
 </template>

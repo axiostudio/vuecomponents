@@ -3,7 +3,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/components/index.js',
     output: [
       {
         format: 'esm',

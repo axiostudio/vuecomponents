@@ -1,14 +1,29 @@
-# Axio Vue Components
+# app
 
-A series of various UX components for Vue made by [Axio Studio Team](https://axio.studio/).
+This template should help get you started developing with Vue 3 in Vite.
 
-All the components are based on [Bootstrap](https://getbootstrap.com/) style base.
+## Recommended IDE Setup
 
-## List of components
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-- AxioInputPassword
-- AxioLorem
+## Customize configuration
 
-## References
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-- https://blog.logrocket.com/building-vue-3-component-library/
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```

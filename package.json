@@ -1,26 +1,37 @@
 {
-  "name": "@axiostudio/vuecomponents",
-  "type": "module",
-  "version": "0.0.1-alpha.3",
-  "description": "List of Vue components made by Axio Studio",
-  "main": "dist/library.js",
-  "module": "dist/library.mjs",
-  "files": [
-    "dist/*"
-  ],
-  "repository": "https://github.com/axiostudio/vuecomponents",
-  "author": "Axio Studio <info@axio.studio>",
-  "license": "MIT",
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "peerDependencies": {
-    "vue": "^3.2.21"
-  },
-  "devDependencies": {
-    "@vue/compiler-sfc": "^3.3.4",
-    "rollup": "^3.26.3",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0"
-  }
+    "type": "module",
+    "version": "0.0.1-alpha.3",
+    "description": "List of Vue components made by Axio Studio",
+    "main": "dist/library.js",
+    "module": "dist/library.mjs",
+    "files": [
+        "dist/*"
+    ],
+    "repository": "https://github.com/axiostudio/vuecomponents",
+    "author": "Axio Studio <info@axio.studio>",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lib": "rollup -c"
+    },
+    "peerDependencies": {
+        "vue": "^3.2.21"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.1",
+        "vue": "^3.3.4",
+        "vue-router": "^4.2.4"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
+        "@vue/compiler-sfc": "^3.3.4",
+        "rollup": "^3.26.3",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "rollup-plugin-vue": "^6.0.0",
+        "sass": "^1.64.2",
+        "vite": "^4.4.6"
+    }
 }
