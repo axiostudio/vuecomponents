@@ -1,13 +1,11 @@
 <template>
     <div class="about">
-        <h1>This is an home page</h1>
-
-        <hr>
 
         <AxioInputPassword v-model="password" required>
             <template v-slot:show-button>Show password</template>
             <template v-slot:hide-button>Hide password</template>
         </AxioInputPassword>
+
         <pre>{{ password }}</pre>
 
         <hr>

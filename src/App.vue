@@ -1,19 +1,25 @@
 
 <template>
-    <header>
+
+    <Navbar />
+
+    <main>
         <div class="container">
 
-            <div class="lead">Axio Vue Components</div>
-
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/about">About</RouterLink>
-            </nav>
+            <RouterView />
 
         </div>
-    </header>
-
-    <div class="container">
-        <RouterView />
-    </div>
+    </main>
 </template>
+
+<script>
+import Navbar from './layout/Navbar.vue';
+
+export default {
+    name: 'App',
+
+    components: {
+        Navbar
+    }
+}
+</script>
